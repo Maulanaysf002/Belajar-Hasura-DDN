@@ -1,9 +1,12 @@
 ## Prerequisit
 
 > - Installasi Docker
->   ![alt text](image.png)
+
+> ![alt text](image.png)
+
 > - Installsi Docker-Compose
->   ![alt text](image-1.png)
+
+> ![alt text](image-1.png)
 
 ## Install Hasura V2 dengan Docker
 
@@ -103,3 +106,7 @@ hasilnya
 10. Kemudian Submit Connect
 Tampilan Database di hasura sudah terlihat
 ```
+
+> connet database postgres via database url
+
+`postgres://postgres:postgrespassword@postgres:5432/postgres` (bisa dilihat di docker-compose.yaml)
