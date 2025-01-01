@@ -61,14 +61,14 @@ masuk kedalam terminal server terlebih dahulu
 `curl -L https://graphql-engine-cdn.hasura.io/ddn/cli/v4/get.sh | bash`
 
 hasilnya:
-![alt text](image.png)
+![alt text](/img/install_ddn_cli.png)
 
 > Verivikasi Installasi
 
 `ddn doctor`
 
 Hasilnya:
-![alt text](image-1.png)
+![alt text](/img/ddn_doctor.png)
 
 ## Login kedalam DDN CLI untuk masuk Hasura DDN
 
@@ -90,6 +90,6 @@ Hasilnya:
 > lalu akses link yang diberikan oleh di terminal
 
 hasilnya:
-![alt text](image-2.png)
+![alt text](/img/login_hasura.png)
 
 ## Inisialisasi Supergraf Baru di Direktori Baru

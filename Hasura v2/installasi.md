@@ -2,11 +2,11 @@
 
 > - Installasi Docker
 
-> ![alt text](image.png)
+> ![alt text](/img/docker_version.png)
 
 > - Installsi Docker-Compose
 
-> ![alt text](image-1.png)
+> ![alt text](/img/docker_compose_version.png)
 
 ## Install Hasura V2 dengan Docker
 
@@ -15,7 +15,7 @@
 `wget https://raw.githubusercontent.com/hasura/graphql-engine/stable/install-manifests/docker-compose/docker-compose.yaml`
 
 hasilnya:
-![alt text](image-2.png)
+![alt text](/img/unduh_docker_compose_hasura.png)
 
 > periksa file docker-compose.yaml
 
@@ -23,14 +23,14 @@ hasilnya:
 
 > ganti HASURA_GRAPHQL_ADMIN_SECRET menjadi apa yang kita inginkan, misal saya menggantinya menjadi `kuncirahasia`
 
-![alt text](image-3.png)
+![alt text](/img/nano_docker_version_hasura.png)
 
 > jalankan docker-compose
 
 `sudo docker-compose up -d` atau `docker compose up -d`
 
 hasilnya:
-![alt text](image-4.png)
+![alt text](/img/docker_compose_hasura_up.png)
 
 ## Mengakses Hasura
 
@@ -42,7 +42,7 @@ hasilnya:
 
 maka anda sudah bisa login ke dalam hasura
 
-![alt text](image-5.png)
+![alt text](/img/dashboard_hasura.png)
 
 ## Koneksi Ke Database
 
@@ -79,14 +79,14 @@ services:
 ```
 
 hasilnya:
-![alt text](image-6.png)
+![alt text](/img/docker_compose_mysql.png)
 
 > periksa container yang berjalan
 
 `sudo docker ps -a`
 
 hasilnya
-![alt text](image-7.png)
+![alt text](/img/docker_ps.png)
 
 > lakukan restart image docker graphql engine
 
