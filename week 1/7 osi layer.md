@@ -174,4 +174,4 @@ UDP adalah protokol transport yang digunakan dalam komunikasi data melalui jarin
 
 > UDP merupakan protokol yang berorientasi pada datagram, yang berarti setiap pesan dikirim sebagai unit terpisah tanpa memperhatikan pesan-pesan sebelumnya atau sesudahnya. UDP beroperasi di atas protokol IP (Internet Protocol) dalam suite Protokol TCP/IP
 
-[Sumber Bacaan UDP](<[https://](https://www.geeksforgeeks.org/user-datagram-protocol-udp/?ref=header_outind)>)
+[Sumber Bacaan UDP](https://www.geeksforgeeks.org/user-datagram-protocol-udp/?ref=header_outind)
